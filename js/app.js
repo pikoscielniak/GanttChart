@@ -9,6 +9,7 @@ var app = angular.module('project', ['project.controllers', 'project.services', 
             when("/dhxGantt", {controller: 'dhxGanttChart', templateUrl: "view/dhxGantt/index.html"}).
             when("/ganttView", {controller: 'ganttView', templateUrl: "view/ganttView/index.html"}).
             when("/fusionCharts", {controller: 'fusionCharts', templateUrl: "view/fusionCharts/index.html"}).
+            when("/dojoToolkit", {controller: 'dojoToolkit', templateUrl: "view/dojoToolkit/index.html"}).
             otherwise({redirectTo: "/"});
 
     });
